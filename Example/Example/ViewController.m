@@ -1,8 +1,8 @@
 //
 //  ViewController.m
-//  ExampleBIZCountNavigationItem
+//  Example
 //
-//  Created by IgorBizi@mail.ru on 12/12/15.
+//  Created by IgorBizi@mail.ru on 12/16/15.
 //  Copyright © 2015 IgorBizi@mail.ru. All rights reserved.
 //
 
@@ -23,12 +23,13 @@
 {
     [super viewDidLoad];
     
-    //setup item
+    //Create
     self.countNavigationItem = [[BIZCountNavigationItem alloc] initWithTarget:self action:@selector(countNavigationItemAction:)];
+    self.navigationItem.rightBarButtonItem = self.countNavigationItem;
+    //Customize
     self.countNavigationItem.badgeLabel.textColor = [UIColor whiteColor];
     self.countNavigationItem.badgeLabel.backgroundColor = [UIColor grayColor];
     self.countNavigationItem.badgeLabel.font = [UIFont systemFontOfSize:20];
-    self.navigationItem.rightBarButtonItem = self.countNavigationItem;
 }
 
 - (void)countNavigationItemAction:(BIZCountNavigationItem *)sender

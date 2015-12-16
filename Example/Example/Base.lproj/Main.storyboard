@@ -44,7 +44,7 @@
                             </button>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93333333330000001" green="0.94509803920000002" blue="0.95294117649999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="bQF-uE-9kG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" constant="-100" id="RBs-xi-s24"/>
                             <constraint firstItem="bQF-uE-9kG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UZD-rI-qxN"/>
