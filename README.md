@@ -11,8 +11,8 @@ BIZCountNavigationItem is a subclass of UIBarButtonItem that adds count label wi
 # Installation
 
 ### Manually
- - Copy BIZCountNavigationItem folder to your project 
- - ```#import "BIZCountNavigationItem.h"``` 
+- Copy BIZCountNavigationItem folder to your project 
+- ```#import "BIZCountNavigationItem.h"``` 
 
 
 # Usage
