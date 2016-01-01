@@ -17,7 +17,7 @@ BIZCountNavigationItem is a subclass of UIBarButtonItem that adds count label wi
 
 # Usage
 
-- Create and setup ```BIZCountNavigationItem``` 
+- create and setup ```BIZCountNavigationItem``` 
 ```objective-c
 @interface ViewController ()
 @property (nonatomic, strong) BIZCountNavigationItem *countNavigationItem;
